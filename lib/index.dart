@@ -14,5 +14,3 @@ export '/pages/profile/edit_account/edit_account_widget.dart'
     show EditAccountWidget;
 export '/pages/profile/edit_password/edit_password_widget.dart'
     show EditPasswordWidget;
-export '/pages/match/matches_copy/matches_copy_widget.dart'
-    show MatchesCopyWidget;

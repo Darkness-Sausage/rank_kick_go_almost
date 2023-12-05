@@ -158,13 +158,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'EditPassword',
           path: '/profile/changePassword',
           builder: (context, params) => EditPasswordWidget(),
-        ),
-        FFRoute(
-          name: 'MatchesCopy',
-          path: '/matchescopy',
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'MatchesCopy')
-              : MatchesCopyWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

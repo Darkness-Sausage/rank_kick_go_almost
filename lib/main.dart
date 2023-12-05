@@ -126,7 +126,6 @@ class _NavBarPageState extends State<NavBarPage> {
       'Rankboard': RankboardWidget(),
       'History': HistoryWidget(),
       'Profile': ProfileWidget(),
-      'MatchesCopy': MatchesCopyWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -175,14 +174,6 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24.0,
             ),
             label: 'Profile',
-            tooltip: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.sports_soccer,
-              size: 24.0,
-            ),
-            label: 'Matches',
             tooltip: '',
           )
         ],

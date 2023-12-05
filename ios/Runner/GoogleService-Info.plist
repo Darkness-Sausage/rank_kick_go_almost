@@ -26,5 +26,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:340555730363:ios:3cff34368b290e6b49c89e</string>
+	<key>DATABASE_URL</key>
+	<string>https://rank-kick-go-ghixa0-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>
 </plist>
