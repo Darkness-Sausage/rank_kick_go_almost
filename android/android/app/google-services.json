@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "340555730363",
+    "firebase_url": "https://rank-kick-go-ghixa0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "rank-kick-go-ghixa0",
+    "storage_bucket": "rank-kick-go-ghixa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340555730363:android:9f6e548a3b9e097949c89e",
+        "android_client_info": {
+          "package_name": "com.mycompany.rankkickgo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPhf6aRt-BSMf3p2vfS9k9_lu0grHtETM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
