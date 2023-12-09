@@ -23,9 +23,9 @@ class InmatchModel extends FlutterFlowModel<InmatchWidget> {
 
   final unfocusNode = FocusNode();
   // State field(s) for Timer widget.
-  int timerMilliseconds = 1000;
+  int timerMilliseconds = 60000;
   String timerValue = StopWatchTimer.getDisplayTime(
-    1000,
+    60000,
     hours: false,
     milliSecond: false,
   );

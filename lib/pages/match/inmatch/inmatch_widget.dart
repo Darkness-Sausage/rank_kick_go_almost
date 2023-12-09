@@ -153,8 +153,8 @@ class _InmatchWidgetState extends State<InmatchWidget> {
                                     .headlineSmall
                                     .override(
                                       fontFamily: 'Outfit',
-                                      color:
-                                          FlutterFlowTheme.of(context).primary,
+                                      color: FlutterFlowTheme.of(context)
+                                          .secondary,
                                     ),
                               ),
                             ],

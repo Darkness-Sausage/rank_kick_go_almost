@@ -9,7 +9,7 @@ export '/pages/auth/forgotpassword/forgotpassword_widget.dart'
     show ForgotpasswordWidget;
 export '/pages/profile/profile/profile_widget.dart' show ProfileWidget;
 export '/pages/match/inmatch/inmatch_widget.dart' show InmatchWidget;
-export '/rank_board/rankboard/rankboard_widget.dart' show RankboardWidget;
+export '/pages/rank_board/rankboard/rankboard_widget.dart' show RankboardWidget;
 export '/pages/profile/edit_account/edit_account_widget.dart'
     show EditAccountWidget;
 export '/pages/profile/edit_password/edit_password_widget.dart'

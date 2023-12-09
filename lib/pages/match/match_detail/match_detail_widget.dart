@@ -371,8 +371,8 @@ class _MatchDetailWidgetState extends State<MatchDetailWidget> {
                                   color:
                                       FlutterFlowTheme.of(context).primaryText,
                                 ),
-                                StreamBuilder<List<EventRecord>>(
-                                  stream: queryEventRecord(
+                                FutureBuilder<List<EventRecord>>(
+                                  future: queryEventRecordOnce(
                                     parent: widget.matchID,
                                     queryBuilder: (eventRecord) => eventRecord
                                         .orderBy('eventTime', descending: true),
@@ -398,6 +398,7 @@ class _MatchDetailWidgetState extends State<MatchDetailWidget> {
                                         snapshot.data!;
                                     return ListView.builder(
                                       padding: EdgeInsets.zero,
+                                      primary: false,
                                       shrinkWrap: true,
                                       scrollDirection: Axis.vertical,
                                       itemCount: listViewEventRecordList.length,

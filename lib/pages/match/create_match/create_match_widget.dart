@@ -174,7 +174,7 @@ class _CreateMatchWidgetState extends State<CreateMatchWidget> {
                         validator: _model.teamANameControllerValidator
                             .asValidator(context),
                         inputFormatters: [
-                          FilteringTextInputFormatter.allow(RegExp('[a-zA-Z ]'))
+                          FilteringTextInputFormatter.allow(RegExp('[a-zA-Z]'))
                         ],
                       ),
                     ),
@@ -291,7 +291,7 @@ class _CreateMatchWidgetState extends State<CreateMatchWidget> {
                         validator: _model.teamBNameControllerValidator
                             .asValidator(context),
                         inputFormatters: [
-                          FilteringTextInputFormatter.allow(RegExp('[a-zA-Z ]'))
+                          FilteringTextInputFormatter.allow(RegExp('[a-zA-Z]'))
                         ],
                       ),
                     ),
@@ -436,7 +436,7 @@ class _CreateMatchWidgetState extends State<CreateMatchWidget> {
                                   10.0, 0.0, 0.0, 0.0),
                               child: Text(
                                 dateTimeFormat(
-                                  'dd.mm.yyyy, HH:mm',
+                                  'd/M H:mm',
                                   _model.datePicked,
                                   locale:
                                       FFLocalizations.of(context).languageCode,
